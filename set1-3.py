@@ -1,11 +1,11 @@
 def main():
-    a=raw_input()
+    x=raw_input()
     try:
-     x=['a','e','i','o','u','A','E','I','O','U']
-     if(str(a) in x):
-        print(a+" is vowel")
+     y=['a','e','i','o','u','A','E','I','O','U']
+     if(str(x) in y):
+        print(x+" is vowel")
      else:
-        print(a+" is consonant")
+        print(x+" is consonant")
     except:
         print("invalid entry")
 if __name__ == '__main__':
