@@ -4,7 +4,7 @@ def main():
      if(int(a)>0):
         print(a+" is positive")
      elif(int(a)<0):
-        print(a+" is negtive")
+        print(a+" is negative")
      else:
         print("the given number is "+a)
     except:
