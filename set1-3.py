@@ -5,7 +5,7 @@ def main():
      if(str(a) in x):
         print(a+" is vowel")
      else:
-        print(a+" is not vowel")
+        print(a+" is consonant")
     except:
         print("invalid entry")
 if __name__ == '__main__':
