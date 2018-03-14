@@ -1,5 +1,5 @@
 def main():
-    x=raw_input()
+    x=input("Enter a alphabet=")
     try:
      y=['a','e','i','o','u','A','E','I','O','U']
      if(str(x) in y):
