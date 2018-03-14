@@ -1,5 +1,4 @@
-def main():
-    a=raw_input()
+ a=input("enter a number=")
     try:
      if(int(a)>0):
         print(a+" is positive")
@@ -9,5 +8,3 @@ def main():
         print("the given number is "+a)
     except:
         print("invalid entry")
-if __name__ == '__main__':
-    main()
