@@ -1,5 +1,5 @@
 def main():
-    a=raw_input()
+    a=input("enter a number=")
     try:
      x=int(a)%2
      if(int(x)==0):
