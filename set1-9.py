@@ -3,8 +3,8 @@ try:
     i=0
     a=[int(input()) for i in range(0,n)]
     b=int(input("Enter no of terms to be added:"))
-    i=0
     s=0
+    i=0
     while(i<b):
         s=int(s)+a[i]
         i=i+1
