@@ -4,5 +4,6 @@ try:
     for i in range(x+1,y):
         if(i%2!=0):
             print (+i)
+    print("no odd number in this limit")
 except:
     print("Invalid entry")
