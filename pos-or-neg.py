@@ -1,9 +1,9 @@
- a=input("enter a number=")
+ a=input()
     try:
      if(int(a)>0):
-        print(a+" is positive")
+        print("positive")
      elif(int(a)<0):
-        print(a+" is negative")
+        print("negative")
      else:
         print("the given number is "+a)
     except:
