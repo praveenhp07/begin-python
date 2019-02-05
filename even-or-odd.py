@@ -1,11 +1,11 @@
 def main():
-    a=input("enter a number=")
+    a=input()
     try:
      x=int(a)%2
      if(int(x)==0):
-        print(a+" is even")
+        print("even")
      else:
-        print(a+" is odd")
+        print("odd")
     except:
         print("invalid entry")
 if __name__ == '__main__':
