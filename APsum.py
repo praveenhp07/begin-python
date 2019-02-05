@@ -1,8 +1,9 @@
 try:
-    n=int(input("enter limit:"))
-    a=int(input("enter starting num:"))
-    d=int(input("enter common diff:"))
-    sum=(n/2)*((2*a)+(n-1)*d)
-    print(sum)
+  x1, x2, x3 = raw_input().split()
+  n=int(x1)
+  a=int(x2)
+  d=int(x3)
+  sum=(((2*a)+(n-1)*d)*n/2)
+  print(sum)
 except:
-    print("Invalid entry")
+  print("Invalid entry")
