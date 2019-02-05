@@ -1,5 +1,5 @@
 try:
-    x=int(input("enter a num"))
+    x=int(input())
     if(x>10000):
         print("enter less than 10000")
     sum=0
